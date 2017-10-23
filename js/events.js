@@ -3,9 +3,12 @@
 $('p').on('click', function getIt() {
     alert("Hey!");
 });
-$('img').on('load', function frameIt() {
+
+function frameIt(){
+$('img').on('load', function() {
     $('img').addClass("tasty");
 });
+}
 $(document).ready(function(){
 
 // call functions here
