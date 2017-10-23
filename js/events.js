@@ -12,7 +12,10 @@ $('img').on('load', function() {
 
 function pressIt(){
 $('#typing').on('keydown', function() {
-    $('img').addClass("tasty");
+  if(key.which == 71){
+    alert('g was pressed');
+}
+
 });
 };
 
