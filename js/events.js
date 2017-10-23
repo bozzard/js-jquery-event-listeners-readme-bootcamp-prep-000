@@ -9,5 +9,5 @@ $('p').on('click', getIt() {
 $(document).ready(function(){
 
 // call functions here
-getIt()
+getIt();
 });
