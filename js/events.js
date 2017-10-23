@@ -11,7 +11,7 @@ $('img').on('load', function() {
 };
 
 function pressIt(){
-$('img').on('load', function() {
+$('#typing').on('keydown', function() {
     $('img').addClass("tasty");
 });
 };
@@ -25,5 +25,5 @@ $(document).ready(function(){
 // call functions here
 getIt();
 frameIt();
-pressIt()ж
+pressIt();
 });
