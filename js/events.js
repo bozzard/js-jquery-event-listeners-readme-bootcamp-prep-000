@@ -1,6 +1,6 @@
 //define functions here
 
-$('p').on('click', getIt() {
+$('p').on('click', function getIt() {
 
     alert('enter was pressed');
 
