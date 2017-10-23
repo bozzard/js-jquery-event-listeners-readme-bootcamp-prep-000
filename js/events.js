@@ -1,9 +1,9 @@
 //define functions here
 
-$(document).on('click', getIt() {
-  if (key.which == 13){
+$('p').on('click', getIt() {
+  
     alert('enter was pressed');
-  }
+  
 });
 
 $(document).ready(function(){
