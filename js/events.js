@@ -2,7 +2,7 @@
 
 $('p').on('click', function getIt() {
 
-    alert('enter was pressed');
+    alert("Hey!");
 
 });
 
